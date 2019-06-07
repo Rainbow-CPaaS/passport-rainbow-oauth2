@@ -65,18 +65,19 @@ app.get( '/auth/rainbow/callback',
 ```
    provider         always set to `rainbow`
    id
-   name
+   name             {givenName, familyName, middleName}
+   family_name
+   given_name
    displayName
-   birthday
-   relationship
-   isPerson
-   isPlusUser
-   placesLived
    language
+   email
    emails
-   gender
+   phone_number
+   phone_numbers
+   photos
    picture
-   coverPhoto
+   update_at
+   zoneinfo
 ```
 
 ## Examples
@@ -91,4 +92,4 @@ For a complete, working example, refer to the [OAuth 2.0 example](example).
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2012-2013 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
+Copyright (c) 2012-2019 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
