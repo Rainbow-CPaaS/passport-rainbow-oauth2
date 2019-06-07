@@ -1,0 +1,26 @@
+{
+   "data": {
+     "displayName": "Fred Example",
+     "companyName": "Rainbow",
+     "loginEmail": "zucher@free.fr",
+     "nickName": null,
+     "title": null,
+     "jobTitle": null,
+     "country": "FRA",
+     "timezone": "Europe/Paris",
+     "companyId": "573dae5383df1694995210bc",
+     "lastAvatarUpdateDate": "2017-10-13T13:24:27.267Z",
+     "lastUpdateDate": "2019-05-21T06:44:07.696Z",
+     "phoneNumbers": [],
+     "emails": [
+       {
+         "email": "fred.example@gmail.com",
+         "type": "work"
+       }
+     ],
+     "lastName": "Example",
+     "firstName": "Fred",
+     "language": "en",
+     "id": "5800c6437e98fd95ea914728"
+   }
+ }

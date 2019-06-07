@@ -1,0 +1,35 @@
+{
+  "name": "passport-rainbow-oauth2",
+  "version": "0.1.0",
+  "description": "Passport strategy for Alcatel-Lucent Enterprise Rainbow OAuth 2.0",
+  "main": "./lib/oauth2.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "passport-oauth2": "^1.5.0"
+  },
+  "devDependencies": {
+    "vows": "^0.8.2"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Rainbow-CPaaS/passport-rainbow-oauth2.git"
+  },
+  "keywords": [
+    "auth",
+    "rainbow",
+    "passportjs",
+    "oauth2"
+  ],
+  "author": "Vincent Bailleau <vincent.bailleau@al-enterprise.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rainbow-CPaaS/passport-rainbow-oauth2/issues"
+  },
+  "homepage": "https://github.com/Rainbow-CPaaS/passport-rainbow-oauth2"
+}
