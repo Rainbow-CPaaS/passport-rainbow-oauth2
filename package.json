@@ -1,6 +1,6 @@
 {
   "name": "passport-rainbow-oauth2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Passport strategy for Alcatel-Lucent Enterprise Rainbow OAuth 2.0",
   "main": "./lib/oauth2.js",
   "directories": {

@@ -21,6 +21,7 @@ The Rainbow OAuth 2.0 authentication strategy authenticates users using a Rainbo
 account and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
+The `rainbowDomain` strategy allows  to specify an alternative Rainbow platform (i.e. : sandbox.openrainbow.com )
 
 ```Javascript
 var RainbowStrategy = require( 'passport-rainbow-oauth2' ).Strategy;

@@ -91,7 +91,7 @@ app.get('/login', function (req, res) {
 //   redirecting the user to openrainbow.com.  After authorization, Rainbow
 //   will redirect the user back to this application at /auth/rainbow/callback
 app.get('/auth/rainbow', passport.authenticate('rainbow', {
-  scope: 'all'
+  scope: ['all']
 }));
 
 // GET /auth/rainbow/callback
